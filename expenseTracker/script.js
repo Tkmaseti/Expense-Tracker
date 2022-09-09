@@ -71,7 +71,11 @@ function addRecord(){
         }
         expenses.push(expense)
     localStorage.setItem('expenses',JSON.stringify(expenses))
-    window.open("history.html");
+    // window.open("history.html");
+    myX = JSON.parse(window.localStorage.getItem('expenses'));
+    for(let key in myX) {
+        console.log(key + ":", myX[key]);}
+   // window.open("history.html");
 }
 
 

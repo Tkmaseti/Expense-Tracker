@@ -1,0 +1,48 @@
+.container{
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 500px;
+    margin: 50px 300px 0 300px;
+    padding: 30px;
+}              
+#label{
+    font-size:40px;
+    margin-right: 100px;
+}
+#Cancel{
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+#btnAddRecord{
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+}
+.elements{
+    margin-top:60px;
+
+}
+label{
+    font-size: 22px;
+
+}
+div{
+    margin-top: 40px;
+}
+input{
+    float:right;
+    width: 70%;
+    margin-left: 20px;
+    height: 35px;
+    font-size: 18px;
+}
+
+
+
+

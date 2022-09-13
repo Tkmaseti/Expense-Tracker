@@ -1,0 +1,125 @@
+.home-container {
+    margin-top: 50px;
+    width: 1024px;
+    height: 500px;
+    display: flex;
+    margin-left: 200px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4%;
+    /* border: 1px solid black; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+h1 {
+    margin-left: 20px;
+    color: navy;
+    font-size: 48px;
+    padding-top: 20px;
+    margin-left: 30rem;
+
+}
+.item {
+    /* width: 100%; */
+    /* height: 50%; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+    /* border: 5px solid black; */
+}
+.total p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+    margin-left: 90px;
+}
+.balances {
+    width: 200px;
+    border: 2px solid whitesmoke;
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 90px;
+    border-radius: 2%;
+    box-shadow: 4px 8px rgb(184, 178, 178);
+}
+.balances p {
+    font-size: large;
+    font-weight: bold;
+}
+a {
+    text-decoration-style: none;
+}
+#pr {
+    padding-left: 5px;
+    color: red;
+}
+.button {
+    margin: 50px;
+    margin-left: 100px;
+    display: flex;
+
+}
+.button button {
+    /* margin-left: 10px; */
+    width: 215px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+}
+.history-container {
+    margin: 200px;
+    /* margin-left: 300px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+
+}
+ #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    /* width: 100%; */
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #000;
+    color: white;
+  }
+
+@media screen and (max-width: 400px){
+    h1 {
+        margin-left: 10rem;
+    }
+    .home-container {
+        width: 450px;
+        height: 100vh;
+        align-items: center;
+        margin-left: 2px;
+        padding: 0;
+        /* padding-left: 100px; */
+        display: block;
+        overflow: hidden;
+        /* margin-bottom: 12rem; */
+        justify-content: center;
+        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    }
+    .history-container {
+        margin: 10px;
+        padding: 0;
+    }
+
+
+}
+    

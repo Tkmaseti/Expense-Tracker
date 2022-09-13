@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Add Data</title>
+    </head> 
+    <body>
+        <div class="container">
+            <div class="top">
+                
+                <label id="label"><strong>New expense</strong></label>
+                <button id="Cancel"><a href="home.html">Cancel</a></button>
+                <button id="btnAddRecord" onclick="addRecord()"><strong>Add</strong></button>
+
+            </div>
+
+            <div class="elements">
+                <div class="date">
+                    <label class="md">Date</label>
+                    <input type="date" id="date" value="2022-09-08" readonly>
+                </div>
+        
+                <div class="description">
+                    <label class="md">Description</label>
+                    <input type="text" id="description" placeholder="description" required>
+                </div>
+        
+                <div class="category">
+                    <label class="md">Category</label>
+                    <input type="text" id="category" placeholder="category" required>
+                </div>
+        
+                <div class="amount">
+                    <label class="md">Amount</label>
+                    <input type="number" id="amount" placeholder="amount" required>
+        
+                </div> 
+            </div>
+        </div>
+        <script src="addData.js"></script>  
+    </body>
+</html>

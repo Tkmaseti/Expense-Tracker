@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <h1>Expenses Tracker</h1>
+    <div class="home-container">
+        <div class="item">
+            <div class="total">
+                <p>Your Balance is:</p>
+                <p id="totalAmount">R0.00</p>
+            </div>
+            <div class="balances">
+                <p>Income: <br><a id="pinc">R0.00</a></p>
+                <p>Expense: <br><a id="pr"> R0.00</a></p>
+                
+            </div>
+            <div class="button">
+                <!-- <a href="history.html"><button >View History</button></a> -->
+                <a href="addData.html"><button>Add Record</button></a>
+                <!-- <button>Show</button> -->
+            </div>
+        </div>
+        <div class="history-container">
+            <table id="customers">
+              <tr>
+                <th>Date</th>
+                <th>Desrciption</th>
+                <th>Category</th>
+                <th>Expense</th>
+              </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
